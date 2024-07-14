@@ -1,0 +1,110 @@
+<style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #000;
+            color: #fff;
+            padding: 1rem;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+
+        header div {
+            flex: 1;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        header p {
+            margin: 0.2rem 0;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            margin: 1rem 0;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #3a7ca5;
+            padding-bottom: 0.3rem;
+            color: #000;
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        section h3 {
+            color: #000;
+            font-size: 1rem;
+            margin: 0.4rem 0;
+        }
+
+        section p,
+        section ul {
+            margin: 0.4rem 0;
+            color: #000; /* Set font color to black */
+        }
+
+        section ul {
+            list-style-type: disc;
+            padding: 0 1rem;
+            color: #000;
+        }
+
+        .print-button {
+            display: block;
+            width: 150px;
+            margin: 1rem auto;
+            padding: 0.5rem;
+            text-align: center;
+            background-color: #3a7ca5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .print-button:hover {
+            background-color: #2a5c7a;
+        }
+
+        @media print {
+            .print-button {
+                display: none;
+            }
+        }
+    </style>
